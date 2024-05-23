@@ -1,0 +1,32 @@
+/* ************************************ */
+/* BOILER PLATE - DO NOT REMOVE         */
+/* Required to composite 2D over video  */
+/* ************************************ */
+body {
+    background-color: rgba(0, 0, 0, 0); /* Make body transparent */
+    overflow: hidden; /* Hide scrollbars */
+    margin: 0; /* Remove built-in margin */
+    padding: 0; /* Remove built-in padding */
+}
+
+/* Animation heartbeat that runs forever, on purpose */
+#nvaKeepAlive {
+    width: 1px;
+    height: 1px;
+    position: relative;
+    display: block;
+    z-index: 9999; /* Ensure we are top most */
+}
+
+@keyframes nvaKeepAlive {
+    0% {
+        background-color: rgba(0, 0, 0, 0.01);
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.01);
+        left: 600px;
+        top: 0px;
+    }
+}

@@ -1,0 +1,7 @@
+#nvaThreeStars {
+    position: fixed;
+    z-index: 200;
+    left: 0px;
+    top: 0px;
+    opacity: 0.0;
+}

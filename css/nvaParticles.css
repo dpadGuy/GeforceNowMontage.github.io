@@ -1,0 +1,37 @@
+#nvaParticles {
+    position: fixed;
+    z-index: 7000;
+    left: 0px;
+    top: 0px;
+    opacity: 1.0;
+    background-color: transparent;
+}
+
+.nvaParticle {
+  border-radius: 80% 20% 80% 20%;
+  background: transparent;
+  position: absolute;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  &.smaller {
+    width: 5px;
+    height: 5px;
+  }
+  &.small {
+    width: 10px;
+    height: 10px;
+  }
+  &.normal {
+    width: 15px;
+    height: 15px;
+  }
+  &.big {
+    width: 20px;
+    height: 20px;
+  }
+  &.bigger {
+    width: 25px;
+    height: 25px;
+  }
+}

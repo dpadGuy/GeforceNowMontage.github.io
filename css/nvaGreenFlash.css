@@ -1,0 +1,56 @@
+/* Container for the flash animation */
+#nvaGreenFlash {
+  position: fixed;
+  z-index: 200;
+  left: 0px;
+  top: 0px;
+  opacity: 0.0;
+  background-color: #76b900;
+}
+
+@keyframes nvaGreenFlash {
+  0% {
+    opacity: 0.9;
+    background-color: #76b900;
+  }
+  10% {
+    opacity: 0.9;
+    background-color: #000000;
+  }
+  20% {
+    opacity: 0.9;
+    background-color: #76b900;
+  }
+  30% {
+    opacity: 0.9;
+    background-color: #000000;
+  }
+  40% {
+    opacity: 0.9;
+    background-color: #76b900;
+  }
+  50% {
+    opacity: 0.9;
+    background-color: #000000;
+  }
+  60% {
+    opacity: 0.9;
+    background-color: #76b900;
+  }
+  70% {
+    opacity: 0.9;
+    background-color: #000000;
+  }
+  80% {
+    opacity: 0.9;
+    background-color: #76b900;
+  }
+  90% {
+    opacity: 0.9;
+    background-color: #000000;
+  }
+  100% {
+    opacity: 0.9;
+    background-color: #000000;
+  }
+}
